@@ -1,0 +1,8 @@
+Dataset:
+
+https://www.kaggle.com/datasets/sjleshrac/airlines-customer-satisfaction
+
+
+kaggle:
+
+https://www.kaggle.com/code/mostafaashraf1/final-project
