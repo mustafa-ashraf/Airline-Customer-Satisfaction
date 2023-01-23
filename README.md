@@ -3,46 +3,49 @@
 <img src="https://www.travelandleisure.com/thmb/OQkwI2_zrF0tJ0ejVn67NZztxDE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/emirates-airplane-A380117-fbc344589d314825961b792d0464e4af.jpg">
 
 
-<h3>There is the following information about the passengers of some airline:
 
--Gender: male or female\n
--Customer type: regular or non-regular airline customer
--Age: the actual age of the passenger
--Type of travel: the purpose of the passenger's flight (personal or business travel)
--Class: business, economy, economy plus
--Flight distance
--Seat comfort: seat satisfaction level (0: not rated; 1-5)
--Departure/Arrival time convenient: departure/arrival time satisfaction level (0: not rated; 1-5)
--Food and drink: food and drink satisfaction level (0: not rated; 1-5)
--Gate location: level of satisfaction with the gate location (0: not rated; 1-5)
--Inflight wifi service: satisfaction level with Wi-Fi service on board (0: not rated; 1-5)
--Inflight entertainment: satisfaction with inflight entertainment (0: not rated; 1-5)
--Online Support
--Ease of Online booking: online booking satisfaction rate (0: not rated; 1-5)
--On-board service: level of satisfaction with on-board service (0: not rated; 1-5)
--Leg room service: level of satisfaction with leg room service (0: not rated; 1-5)
--Baggage handling: level of satisfaction with baggage handling (0: not rated; 1-5)
--Checkin service: level of satisfaction with checkin service (0: not rated; 1-5)
--Cleanliness: level of satisfaction with cleanliness (0: not rated; 1-5)
--Online boarding: satisfaction level with online boarding (0: not rated; 1-5)
--Departure delay in minutes
--Arrival delay in minutes
-This data set contains a survey on air passenger satisfaction. The following classification problem is set:
 
-It is necessary to predict which of the two levels of satisfaction with the airline the passenger belongs to:
-	-Satisfaction
-	-dissatisfied
 
-We get insights:
-	-Ease of online booking is an important factor affect the satisfaction
-	-online suuport is an important factor affect the satisfaction
-	-on board service is an important factor affect the satisfaction
+<h3>There is the following information about the passengers of some airline:</h3>
+
+-Gender: male or female<br>
+-Customer type: regular or non-regular airline customer<br>
+-Age: the actual age of the passenger<br>
+-Type of travel: the purpose of the passenger's flight (personal or business travel)<br>
+-Class: business, economy, economy plus<br>
+-Flight distance<br>
+-Seat comfort: seat satisfaction level (0: not rated; 1-5)<br>
+-Departure/Arrival time convenient: departure/arrival time satisfaction level (0: not rated; 1-5)<br>
+-Food and drink: food and drink satisfaction level (0: not rated; 1-5)<br>
+-Gate location: level of satisfaction with the gate location (0: not rated; 1-5)<br>
+-Inflight wifi service: satisfaction level with Wi-Fi service on board (0: not rated; 1-5)<br>
+-Inflight entertainment: satisfaction with inflight entertainment (0: not rated; 1-5)<br>
+-Online Support<br>
+-Ease of Online booking: online booking satisfaction rate (0: not rated; 1-5)<br>
+-On-board service: level of satisfaction with on-board service (0: not rated; 1-5)<br>
+-Leg room service: level of satisfaction with leg room service (0: not rated; 1-5)<br>
+-Baggage handling: level of satisfaction with baggage handling (0: not rated; 1-5)<br>
+-Checkin service: level of satisfaction with checkin service (0: not rated; 1-5)<br>
+-Cleanliness: level of satisfaction with cleanliness (0: not rated; 1-5)<br>
+-Online boarding: satisfaction level with online boarding (0: not rated; 1-5)<br>
+-Departure delay in minutes<br>
+-Arrival delay in minutes<br><br><br>
+This data set contains a survey on air passenger satisfaction. The following classification problem is set:<br>
+
+It is necessary to predict which of the two levels of satisfaction with the airline the passenger belongs to:<br>
+- Satisfaction
+- dissatisfied
+
+We get insights:<br>
+- Ease of online booking is an important factor affect the satisfaction<br>
+- online suuport is an important factor affect the satisfaction<br>
+- on board service is an important factor affect the satisfaction<br>
 
 
 we have two methods that we will use to detect the best related features to our target
-	-Chi-Square
-	-Random Forest importance Method
-	-Feature Permutation Importance
+- Chi-Square
+- Random Forest importance Method
+- Feature Permutation Importance
 
 
 From all above results, finally we can combine and conclude the list of important features.
@@ -61,23 +64,22 @@ focus on business travellers aspects such as online booking and seat comfort sho
 
 Recommendation:
 About business, my advise to the company to improve the services that have low score for the Eco class:
+- food_and_drink
+- online_boarding
+- seat_comfort
+- inflight_entertainment
+- on_board_service
+- leg_room_service
 
-	-food_and_drink
-	-online_boarding
-	-seat_comfort
-	-inflight_entertainment
-	-on_board_service
-	-leg_room_service
-
-Future work:
-	-we have some questions that we thought it will help us to get to know our data more
-	-was the departure delay caused by bad weather?
-	-was their seatmate rude?
-	-we would love to know more details about the dataset to get more detailed analysis
-
+Future work:<br>
+- we have some questions that we thought it will help us to get to know our data more
+- was the departure delay caused by bad weather?
+- was their seatmate rude?
+- we would love to know more details about the dataset to get more detailed analysis
 
 
-				THANK YOU
+
+# THANK YOU
 
 
 
